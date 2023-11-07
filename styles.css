@@ -1,0 +1,43 @@
+body {
+    background-color: #f2f2f2; /* Color de fondo gris claro */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1e3c72; /* Color de fondo azul oscuro */
+    color: #fff; /* Texto en blanco */
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.faculty {
+    background-color: #b2b2a3; /* Color de fondo amarillo clarito */
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+h2 {
+    color: #1e3c72; /* Texto en azul oscuro */
+    font-size: 20px;
+    margin-top: 0;
+}
+
+h3 {
+    color: #1e3c72; /* Texto en azul oscuro */
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+a {
+    color: #1e3c72; /* Enlaces en azul oscuro */
+}

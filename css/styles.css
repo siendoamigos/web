@@ -10959,7 +10959,7 @@ p {
 }
 
 .intro {
-  position: relative;
+  position: center;
 }
 @media (min-width: 992px) {
   .intro .intro-img {

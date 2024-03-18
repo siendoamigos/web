@@ -2,14 +2,14 @@ body {
     background-color: #f2f2f2; /* Color de fondo gris claro */
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
+    padding: 20px; /* Modificado para hacerlo más compacto en dispositivos pequeños */
 }
 
 header {
     background-color: #1e3c72; /* Color de fondo azul oscuro */
     color: #fff; /* Texto en blanco */
     text-align: center;
-    padding: 20px;
+    padding: 20px; /* Modificado para hacerlo más compacto en dispositivos pequeños */
 }
 
 h1 {
@@ -18,8 +18,8 @@ h1 {
 
 .faculty {
     background-color: #b2b2a3; /* Color de fondo amarillo clarito */
-    margin: 20px;
-    padding: 20px;
+    margin: 10px; /* Modificado para hacerlo más compacto en dispositivos pequeños */
+    padding: 20px; /* Modificado para hacerlo más compacto en dispositivos pequeños */
     border: 1px solid #ddd;
 }
 
@@ -40,4 +40,15 @@ ul {
 
 a {
     color: #1e3c72; /* Enlaces en azul oscuro */
+}
+
+/* Media query para ajustar el diseño en dispositivos con una anchura máxima de 768px */
+@media screen and (max-width: 768px) {
+    header {
+        padding: 10px; /* Ajuste de espaciado */
+    }
+    .faculty {
+        margin: 5px; /* Ajuste de margen */
+        padding: 10px; /* Ajuste de espaciado */
+    }
 }
